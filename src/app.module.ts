@@ -13,7 +13,7 @@ import { Devices } from "./entities/device.entity";
   imports: [
     DevicesModule,
     TypeOrmModule.forRoot(typeOrmConfig),
-    TypeOrmModule.forFeature([Devices]),
+    TypeOrmModule.forFeature([Devices])
   ]
 })
 export class AppModule {

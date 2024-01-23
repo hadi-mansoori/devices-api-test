@@ -21,7 +21,8 @@
     "typeorm": "ts-node -r tsconfig-paths/register ./node_modules/typeorm/cli.js ",
     "migration:create:linux": "sh ./create-migration.sh",
     "migration:create:windows": "call create-migration.bat",
-    "migration:run": "yarn typeorm migration:run -d src/config/typeorm.config.ts"
+    "migration:run": "yarn typeorm migration:run -d src/config/typeorm.config.ts",
+    "migration:revert": "yarn typeorm migration:revert -d src/config/typeorm.config.ts"
   },
   "dependencies": {
     "@nestjs/common": "^10.0.0",
