@@ -6,6 +6,7 @@ import { TypeOrmModule } from "@nestjs/typeorm";
 import { typeOrmConfig } from "./config/typeorm.config";
 import { Devices } from "./entities/device.entity";
 
+
 @Module({
   controllers: [AppController],
   providers: [AppService],
