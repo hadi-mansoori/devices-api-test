@@ -8,6 +8,13 @@
 $ yarn install
 ```
 
+## Running migrations
+
+```bash
+# develop mode
+$ yarn migration:run
+```
+
 ## Running the app
 
 ```bash
@@ -36,9 +43,18 @@ $ yarn run test:e2e
 # test coverage
 $ yarn run test:cov
 ```
+## Migration commands
+
+```bash
+# create migration in windows
+$ yarn migration:create:windows 
+
+# create migration in linux
+$ yarn migration:create:linux 
+
+# revert migrations
+$ yarn migration:revert
+```
 
 ## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-
+Devise API is an MIT-licensed open source project.
